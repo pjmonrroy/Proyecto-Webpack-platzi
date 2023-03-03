@@ -20,15 +20,15 @@ const data = {
         ],
         links: [
         {
-            name: "COURSE",
-            url: "https://example.com/",
-            color: "green",
+            name: "CURSOS REALIZADOS",
+            url: "https://platzi.com/p/pierremonrroy",
+            color: "lime",
             emoji: "📖",
         },
         {
-            name: "PROYECTS",
-            url: "https://example.com/",
-            color: "blue",
+            name: "PROYECTOS",
+            url: "https://github.com/pjmonrroy",
+            color: "sky",
             emoji: "💬",
         },
     ],
@@ -38,8 +38,8 @@ const data = {
 const main = () => {
     let name = document.createTextNode(data?.name);
     let links = data?.links?.map((link) => {
-        return `<div class="bg-${link.color}-200 px-4 py-5 w-full flex justify-between">
-                    <a class="text-sm font-bold text-${link.color}-600 text-center hover:text-${link.color}-800 cursor-pointer"
+        return `<div class="bg-${link.color}-300 px-4 py-5 w-full flex justify-between">
+                    <a class="text-sm font-bold text-${link.color}-800 text-center hover:text-${link.color}-800 cursor-pointer"
                     href="${link.url}" target="_blank">
                     ${link.name}
                     </a>
