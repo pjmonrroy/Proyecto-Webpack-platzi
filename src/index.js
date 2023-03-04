@@ -32,7 +32,7 @@ const data = {
             emoji: "💬",
         },
     ],
-    footer: "Made with Love on Colombia",
+    footer: "Un café y una sonrisa",
 };
 
 const main = () => {
